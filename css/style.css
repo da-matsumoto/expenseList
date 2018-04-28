@@ -33,6 +33,104 @@ table{border-collapse:collapse;border-spacing:0}
 /* ******************************************************************** */
 /* 共通 */
 /* ******************************************************************** */
+body{
+    font-family: "Sawarabi Mincho";
+    letter-spacing: 2px;
+    background-color: #FEF6E0;
+    color: #102449;
+}
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+#header{
+    background-color: #102449;
+    width: 100%;
+    padding: 30px;
+}
+#header img{
+    width: 50px;
+    margin-right: 20px;
+    float: left;
+}
+h1{
+    font-family: 'Libre Baskerville', serif;
+    color: #FFFFFF;
+    font-weight: 100;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+#main{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+#main h2{
+    font-weight: 100;
+    font-size: 30px;
+    margin-top: 60px;
+}
+#main .main_wrapper{
+    margin-top: 50px;
+    display: flex;
+}
+.inputarea,.listarea{
+    width: 50%;
+}
+h3{
+    font-size: 20px;
+    border-bottom: 2px solid #102449;
+    width: 60px;
+    margin: 0 auto 30px;
+}
+input{
+    border: 2px solid #102449;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    width: 80%;
+    height: 48px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+button{
+    border: 2px solid #102449;
+    background-color: #102449;
+    color: #FFFFFF;
+    font-size: 16px;
+    width: 80%;
+    height: 48px;
+    margin-top: 20px;
+}
+.listarea_box{
+    text-align: left;
+    border: 2px solid #102449;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    padding: 20px;
+    height: 304px;
+    overflow-y: scroll;
+}
+.listarea_box h4{
+    border-bottom: 1px solid #102449;
+    padding: 10px;
+}
+.listarea_box table{
+    width: 100%;
+}
+.listarea_box tr{
+    border-bottom: 1px solid #102449;
+}
+.listarea_box th,.listarea_box td{
+    padding: 10px 20px;
+}
+#footer{
+    margin-top: 50px;
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+}
+
 
 /* ******************************************************************** */
 /* スマホのみ */
@@ -64,5 +162,5 @@ table{border-collapse:collapse;border-spacing:0}
 /* ******************************************************************** */
 
 @media screen and (min-width : 1024px){
-    
+
 }
