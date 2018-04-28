@@ -5,52 +5,56 @@
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <title>expenseList</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/earlyaccess/sawarabimincho.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
 </head>
 <body>
-    <header id="header">
+    <header id="header" class="clearfix">
         <img src="img/logo.png" alt="expenseList">
         <h1>expenseList</h1>
     </header>
     <div id="main">
         <h2>今月の出費　80,000円</h2>
-        <div class="inputarea">
-            <h3>入力</h3>
-            <form action="">
-            <input type="date">
-            <input type="text" placeholder="項目">
-            <input type="text" placeholder="価格">
-            <button type="submit" value="追加">追加</button>
-            </form>
-        </div>
-        <div class="listarea">
-            <h3>一覧</h3>
-            <div class="listarea_box">
-                <h4 class="listarea_box_date">2018/05/01</h4>
-                <table>
-                    <tr>
-                        <th>朝食</th>
-                        <td>250円</td>
-                    </tr>
-                    <tr>
-                        <th>昼食</th>
-                        <td>1,000円</td>
-                    </tr>
-                    <tr>
-                        <th>夕食</th>
-                        <td>1,000円</td>
-                    </tr>
-                </table>
-                <h4 class="listarea_box_date">2018/05/02</h4>
-                <table>
-                    <tr>
-                        <th>朝食</th>
-                        <td>250円</td>
-                    </tr>
-                    <tr>
-                        <th>昼食</th>
-                        <td>1,000円</td>
-                    </tr>
-                </table>
+        <div class="main_wrapper">
+            <div class="inputarea">
+                <h3>入力</h3>
+                <form action="">
+                <input type="date"><br>
+                <input type="text" placeholder="項目"><br>
+                <input type="text" placeholder="価格"><br>
+                <button type="submit" value="追加">追加</button>
+                </form>
+            </div>
+            <div class="listarea">
+                <h3>一覧</h3>
+                <div class="listarea_box">
+                    <h4 class="listarea_box_date">2018/05/01</h4>
+                    <table>
+                        <tr>
+                            <th>朝食</th>
+                            <td>250円</td>
+                        </tr>
+                        <tr>
+                            <th>昼食</th>
+                            <td>1,000円</td>
+                        </tr>
+                        <tr>
+                            <th>夕食</th>
+                            <td>1,000円</td>
+                        </tr>
+                    </table>
+                    <h4 class="listarea_box_date">2018/05/02</h4>
+                    <table>
+                        <tr>
+                            <th>朝食</th>
+                            <td>250円</td>
+                        </tr>
+                        <tr>
+                            <th>昼食</th>
+                            <td>1,000円</td>
+                        </tr>
+                    </table>
+                </div>
             </div>
         </div>
     </div>
