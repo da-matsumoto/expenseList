@@ -39,6 +39,14 @@ body{
     background-color: #FEF6E0;
     color: #102449;
 }
+* {
+    -webkit-appearance: none;
+}
+input {
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+    
 .clearfix:after {
     content: "";
     clear: both;
@@ -84,6 +92,14 @@ h3{
     width: 60px;
     margin: 0 auto 30px;
 }
+.inputarea h4{
+    font-size: 14px;
+    color: #FFFFFF;
+    background-color: #102449;
+    width: 80%;
+    margin: 0 auto;
+    padding: 7px 0 5px;
+}
 input{
     border: 2px solid #102449;
     font-size: 16px;
@@ -108,7 +124,7 @@ button{
     background-color: #FFFFFF;
     font-size: 14px;
     padding: 20px;
-    height: 304px;
+    height: 395px;
     overflow-y: scroll;
 }
 .listarea_box h4{
@@ -126,6 +142,7 @@ button{
 }
 #footer{
     padding-top: 100px;
+    padding-bottom: 20px;
     font-size: 10px;
     text-align: center;
     font-family: 'Libre Baskerville', serif;
@@ -158,6 +175,9 @@ button{
         width: 100%;
     }
     button{
+        width: 100%;
+    }
+    .inputarea h4{
         width: 100%;
     }
 }
