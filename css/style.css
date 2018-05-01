@@ -47,10 +47,10 @@ body{
 #header{
     background-color: #102449;
     width: 100%;
-    padding: 30px;
+    padding: 20px;
 }
 #header img{
-    width: 50px;
+    width: 25px;
     margin-right: 20px;
     float: left;
 }
@@ -58,7 +58,7 @@ h1{
     font-family: 'Libre Baskerville', serif;
     color: #FFFFFF;
     font-weight: 100;
-    font-size: 40px;
+    font-size: 20px;
     letter-spacing: 5px;
 }
 #main{
@@ -69,7 +69,7 @@ h1{
 #main h2{
     font-weight: 100;
     font-size: 30px;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 #main .main_wrapper{
     margin-top: 50px;
@@ -125,7 +125,7 @@ button{
     padding: 10px 20px;
 }
 #footer{
-    margin-top: 50px;
+    padding-top: 100px;
     font-size: 10px;
     text-align: center;
     font-family: 'Libre Baskerville', serif;
@@ -145,7 +145,21 @@ button{
 /* ******************************************************************** */
 
 @media screen and (max-width: 1023px){
-    
+    #main .main_wrapper{
+        display: block;
+    }
+    .inputarea,.listarea{
+        width: 100%;
+    }
+    .inputarea{
+        margin-bottom: 50px;
+    }
+    input{
+        width: 100%;
+    }
+    button{
+        width: 100%;
+    }
 }
 
 
